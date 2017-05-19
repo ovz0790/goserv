@@ -4,24 +4,23 @@ package goserv.infra.ru.model;
  * Created by Olga_Zlobina on 4/19/2017.
  */
 public class Stone {
-    private Position pos;
-    private Color color;
-    private int breatheCount;
 
-    public Position getPos() {
-        return pos;
+    public Stone(int x, int y, Color color){
+        this.position = new Position(x, y);
+        this.color = color;
+        this.breatheCount = 0;
     }
 
-    public void setPos(Position pos) {
-        this.pos = pos;
+    private final Position position;
+    private final Color color;
+    private int breatheCount;
+
+    public Position getPosition() {
+        return position;
     }
 
     public Color getColor() {
         return color;
-    }
-
-    public void setColor(Color color) {
-        this.color = color;
     }
 
     public int getBreatheCount() {

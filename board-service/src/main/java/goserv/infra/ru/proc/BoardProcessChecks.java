@@ -6,14 +6,16 @@ import goserv.infra.ru.model.Position;
 import goserv.infra.ru.model.Stone;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Olga_Zlobina on 4/19/2017.
  */
-public interface BoardProcess {
-    boolean checkStepApply(Board board, Position position, Color  color);
+public interface BoardProcessChecks{
 
-    List<Stone> findDeadStone(Board board);
+    boolean checkStepApply(Board board, Position position, Color color);
 
-    void cleanDeadStone(Board board);
+    List<Stone> findAndCleanDeadStone(Board board);
+
+    void updateScoring(Board board);
 }
