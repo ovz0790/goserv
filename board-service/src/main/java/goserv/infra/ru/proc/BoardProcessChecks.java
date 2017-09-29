@@ -1,12 +1,11 @@
 package goserv.infra.ru.proc;
 
-import goserv.infra.ru.model.Board;
+import goserv.infra.ru.model.old.Board;
 import goserv.infra.ru.model.Color;
-import goserv.infra.ru.model.Position;
-import goserv.infra.ru.model.Stone;
+import goserv.infra.ru.model.old.Position;
+import goserv.infra.ru.model.old.Stone;
 
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by Olga_Zlobina on 4/19/2017.

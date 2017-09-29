@@ -1,6 +1,6 @@
 package goserv.infra.ru.users;
 
-import goserv.infra.ru.model.Board;
+import goserv.infra.ru.model.old.Board;
 
 /**
  * Created by Olga_Zlobina on 5/19/2017.

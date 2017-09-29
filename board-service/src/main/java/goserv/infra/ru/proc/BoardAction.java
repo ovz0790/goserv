@@ -1,10 +1,8 @@
 package goserv.infra.ru.proc;
 
 import goserv.infra.ru.exceptions.StepNotAllowedException;
-import goserv.infra.ru.model.Board;
-import goserv.infra.ru.model.Color;
-import goserv.infra.ru.model.Position;
-import goserv.infra.ru.model.Stone;
+import goserv.infra.ru.model.old.Board;
+import goserv.infra.ru.model.old.Stone;
 
 /**
  * Created by Olga_Zlobina on 4/19/2017.

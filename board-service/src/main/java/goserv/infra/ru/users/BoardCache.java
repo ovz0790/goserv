@@ -1,6 +1,6 @@
 package goserv.infra.ru.users;
 
-import goserv.infra.ru.model.Board;
+import goserv.infra.ru.model.old.Board;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

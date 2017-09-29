@@ -1,9 +1,14 @@
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\users\UserSession.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Color.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Stone.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\http\BoardControllerImpl.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Board.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\http\UserSession.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\proc\BoardAction.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\users\BoardCache.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\proc\BoardProcessChecks.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\conf\ContextConfig.java
-D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Color.java
+D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\users\UserCache.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Position.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\exceptions\StepNotAllowedException.java
 D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\http\BoardController.java
-D:\proj\go\goserv\board-service\src\main\java\goserv\infra\ru\model\Stone.java

@@ -1,10 +1,10 @@
 package goserv.infra.ru.conf;
 
 import goserv.infra.ru.exceptions.StepNotAllowedException;
-import goserv.infra.ru.model.Board;
+import goserv.infra.ru.model.old.Board;
 import goserv.infra.ru.model.Color;
-import goserv.infra.ru.model.Position;
-import goserv.infra.ru.model.Stone;
+import goserv.infra.ru.model.old.Position;
+import goserv.infra.ru.model.old.Stone;
 import goserv.infra.ru.proc.BoardAction;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

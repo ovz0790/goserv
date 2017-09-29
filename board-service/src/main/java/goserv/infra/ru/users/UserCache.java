@@ -1,6 +1,5 @@
 package goserv.infra.ru.users;
 
-import goserv.infra.ru.model.Board;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
