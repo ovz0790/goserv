@@ -15,6 +15,6 @@ import java.util.Map;
 @Getter
 public class SessionGamesHolder {
 
-    private final Map<String, Game> blackUserBoards = new HashMap<>();
-    private final Map<String, Game> whiteUserBoards = new HashMap<>();
+    private final Map<String, Game> games = new HashMap<>();
+
 }

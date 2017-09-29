@@ -1,6 +1,5 @@
 package goserv.infra.ru.session;
 
-import goserv.infra.ru.model.Color;
 import goserv.infra.ru.model.User;
 import lombok.Getter;
 import lombok.Setter;
@@ -18,6 +17,6 @@ public class UserSessionData {
 
     private User user;
 
-    private String sessionId;
+    private String gameId;
 
 }

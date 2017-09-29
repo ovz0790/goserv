@@ -14,7 +14,6 @@ import javax.servlet.http.HttpServletRequest;
  * REST API for playing GO
  * Created by Olga_Zlobina on 4/19/2017.
  */
-@RestController
 public interface BoardController {
 
     /**
@@ -24,8 +23,7 @@ public interface BoardController {
      */
     @RequestMapping(value = "/board/new", method = RequestMethod.GET)
     @ResponseBody
-    GameDto initNewGame(@RequestParam(name = "size") Integer size,
-                        HttpServletRequest httpServletRequest);
+    GameDto initNewGame(@RequestParam(name = "size") Integer size);
 
 
     /**
@@ -35,8 +33,7 @@ public interface BoardController {
      */
     @RequestMapping(value = "/board/{gameId}/connect", method = RequestMethod.GET)
     @ResponseBody
-    GameDto connectToinitNewGame(@PathVariable(name = "game") String gameId,
-                                 HttpServletRequest httpServletRequest);
+    GameDto connectToinitNewGame(@PathVariable(name = "game") String gameId);
 
 
     /**
@@ -51,8 +48,7 @@ public interface BoardController {
     @ResponseBody
     GameDto putStone(@PathVariable(name = "game") String gameId,
                      @PathVariable("x") Integer x,
-                     @PathVariable("y") Integer y,
-                     HttpServletRequest httpServletRequest) throws StepNotAllowedException;
+                     @PathVariable("y") Integer y) throws StepNotAllowedException;
 
     /**
      * request for stop the game. Game will be finished finally when all players called this API
@@ -62,7 +58,6 @@ public interface BoardController {
      */
     @RequestMapping(value = "/board/{gameId}/stop", method = RequestMethod.GET)
     @ResponseBody
-    GameDto putStone(@PathVariable(name = "game") String gameId,
-                     HttpServletRequest httpServletRequest) throws StepNotAllowedException;
+    GameDto stopGame(@PathVariable(name = "game") String gameId) throws StepNotAllowedException;
 
 }
